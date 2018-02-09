@@ -1,0 +1,290 @@
+21:16:56    801 --> ...      [tcl] ucliGUI::start /home/sf10021/Labs/lab0-HelloWorld/simv -ucligui +UVM_TESTNAME=test_base
+21:16:56    802 --> ...          [tcl] set ucliGUI::state
+21:16:56    803 --> ...              [tcl] gui_update_simulator_buttons
+21:16:57    804 --> ...                  [tcl] set ucliGUI::state
+21:16:57    805 --> ...                      [tcl] ucliCore::getToolPID
+21:16:57    806 --> ...                          [tcl] synopsys::env hasTB
+21:16:57    807 --> ...                              [tcl] trigger_hier_stack_context_switch 0
+21:16:57    808 --> ...                                  [tcl] synopsys::xml set_array_limit <data limit="50" />
+21:16:57    809 --> ...                                      [tcl] synopsys::xml set_depth_limit <data limit="100" />
+21:16:57    810 --> ...                                          [tcl] synopsys::xml set_string_limit <data limit="1000" />
+21:16:57    811 --> ...                                              [tcl] synopsys::xml set_only_active_frame <data value="1" />
+21:16:57    812 --> ...                                                  [tcl] synopsys::xml set_variable_frame_id <data value="1" />
+21:16:57    813 --> ...                                                      [tcl] synUtils::setDVEInitPhase 1
+21:16:57    814 --> ...                                                          [tcl] gui_get_env SIMSETUP::SIMVPD
+21:16:57    815 --> ...                                                              [tcl] synopsys::dump -type VPD -file /home/sf10021/Labs/lab0-HelloWorld/inter.vpd -locking
+21:16:57    816 --> ...                                                                  [tcl] synopsys::dump -autoflush on -fid VPD4
+21:16:57    817 --> ...                                                                      [tcl] set ::dve_fid VPD4
+21:16:57    818 --> ...                                                                          [tcl] synUtils::setDVEInitPhase 0
+21:16:57    819 --> ...                                                                              [tcl] ucliCore::getToolPID
+21:16:57    820 --> ...                                                                                  [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpVa7UMF
+21:16:57    821 --> ...                                                                                      [tcl] synUtils::sendTool -active {_icl_start_rpc -version "L-2016.06-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.sf10026.25270}
+21:16:57    822 --> ...                                                                                          [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.sf10026.25270}
+21:16:58    823 --> ...                                                                                              [tcl] config endofsim noexit
+21:16:58    824 --> ...                                                                                                  [tcl] config onfail enable all
+21:16:58    825 --> ...  [tcl] config syscaddplainmembers
+21:16:58    826 --> ...      [tcl] config syscaddsourcenames
+21:16:58    827 --> ...          [tcl] config syscaddstructtypes
+21:16:58    828 --> ...              [tcl] synopsys::listing -disable
+21:16:58    829 --> ...                  [tcl] # Begin_DVE_Session_Save_Info
+21:16:58    830 --> ...                      [tcl] # DVE restart session
+21:16:58    831 --> ...                          [tcl] # Saved on Tue Feb 6 21:16:56 2018
+21:16:58    832 --> ...                              [tcl] # Designs open: 1
+21:16:58    833 --> ...                                  [tcl] #   Sim: /home/sf10021/Labs/lab0-HelloWorld/simv
+21:16:58    834 --> ...                                      [tcl] # Toplevel windows open: 1
+21:16:58    835 --> ...                                          [tcl] # 	TopLevel.1
+21:16:58    836 --> ...                                              [tcl] #   Source.1: _vcs_unit__3143625952
+21:16:58    837 --> ...                                                  [tcl] #   Group count = 0
+21:16:58    838 --> ...                                                      [tcl] # End_DVE_Session_Save_Info
+21:16:58    839 --> ...                                                          [tcl] # DVE version: L-2016.06-SP1_Full64
+21:16:58    840 --> ...                                                              [tcl] # DVE build date: Aug 25 2016 21:34:05
+21:16:58    841 --> ...                                                                  [tcl] #<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+21:16:58    842 --> ...                                                                      [tcl] gui_set_loading_session_type Restart
+21:16:58    843 --> ...                                                                          [tcl] gui_continuetime_set
+21:16:58    844 --> ...                                                                              [tcl] gui_clear_window -type Wave
+21:16:58    845 --> ...                                                                                  [tcl] gui_clear_window -type List
+21:16:58    846 --> ...                                                                                      [tcl] # Application preferences
+21:16:58    847 --> ...                                                                                          [tcl] gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+21:16:58    848 --> ...                                                                                              [tcl] gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+21:16:58    849 --> ...                                                                                                  [tcl] #<WindowLayout>
+21:16:58    850 --> ...  [tcl] # DVE top-level session
+21:16:58    851 --> ...      [tcl] # Create and position top-level window: TopLevel.1
+21:16:58    852 --> ...          [tcl] set TopLevel.1 TopLevel.1
+21:16:58    853 --> ...              [tcl] # Docked window settings
+21:16:58    854 --> ...                  [tcl] set HSPane.1 HSPane.1
+21:16:58    855 --> ...                      [tcl] set Hier.1 Hier.1
+21:16:58    856 --> ...                          [tcl] set Stack.1 Stack.1
+21:16:58    857 --> ...                              [tcl] set Class.1 Class.1
+21:16:58    858 --> ...                                  [tcl] set Object.1 Object.1
+21:16:58    859 --> ...                                      [tcl] set DLPane.1 DLPane.1
+21:16:58    860 --> ...                                          [tcl] set Data.1 Data.1
+21:16:58    861 --> ...                                              [tcl] set Local.1 Local.1
+21:16:58    862 --> ...                                                  [tcl] set Member.1 Member.1
+21:16:58    863 --> ...                                                      [tcl] set Console.1 Console.1
+21:16:58    864 --> ...                                                          [tcl] gui_sync_global -id ${TopLevel.1} -option true
+21:16:58    865 --> ...                                                              [tcl] # MDI window settings
+21:16:58    866 --> ...                                                                  [tcl] set Source.1 Source.1
+21:16:58    867 --> ...                                                                      [tcl] gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+21:16:58    868 --> ...                                                                          [tcl] # End MDI window settings
+21:16:58    869 --> ...                                                                              [tcl] #</WindowLayout>
+21:16:58    870 --> ...                                                                                  [tcl] #<Database>
+21:16:58    871 --> ...                                                                                      [tcl] gui_set_precision 1s
+21:16:58    872 --> ...                                                                                          [tcl] gui_set_time_units 1s
+21:16:58    873 --> ...                                                                                              [tcl] #</Database>
+21:16:58    874 --> ...                                                                                                  [tcl] # DVE Global setting session:
+21:16:58    875 --> ...  [tcl] # Global: Breakpoints
+21:16:58    876 --> ...      [tcl] stop -in uvm_component::pre_main_phase
+21:16:58    877 --> ...          [tcl] synopsys::watch -raw
+21:16:58    878 --> ...              [tcl] gui_postwatch -bpid 1  -in uvm_component::pre_main_phase -allthreads
+21:16:58    879 --> ...                  [tcl] dveMisc::vbusExpand uvm_pkg
+21:16:58    880 --> ...                      [tcl] stop -in uvm_component::build_phase  -end   -once
+21:16:58    881 --> ...                          [tcl] synopsys::watch -raw
+21:16:58    882 --> ...                              [tcl] gui_postwatch -bpid 2  -in uvm_component::build_phase -allthreads -end -once
+21:16:58    883 --> ...                                  [tcl] stop -in uvm_component::connect_phase  -end   -once
+21:16:58    884 --> ...                                      [tcl] synopsys::watch -raw
+21:16:58    885 --> ...                                          [tcl] gui_postwatch -bpid 3  -in uvm_component::connect_phase -allthreads -end -once
+21:16:58    886 --> ...                                              [tcl] stop -in uvm_component::end_of_elaboration_phase  -end   -once
+21:16:58    887 --> ...                                                  [tcl] synopsys::watch -raw
+21:16:58    888 --> ...                                                      [tcl] gui_postwatch -bpid 4  -in uvm_component::end_of_elaboration_phase -allthreads -end -once
+21:16:58    889 --> ...                                                          [tcl] stop -in uvm_component::start_of_simulation_phase  -end   -once
+21:16:58    890 --> ...                                                              [tcl] synopsys::watch -raw
+21:16:58    891 --> ...                                                                  [tcl] gui_postwatch -bpid 5  -in uvm_component::start_of_simulation_phase -allthreads -end -once
+21:16:58    892 --> ...                                                                      [tcl] stop -in uvm_component::run_phase  -end   -once
+21:16:58    893 --> ...                                                                          [tcl] synopsys::watch -raw
+21:16:58    894 --> ...                                                                              [tcl] gui_postwatch -bpid 6  -in uvm_component::run_phase -allthreads -end -once
+21:16:58    895 --> ...                                                                                  [tcl] stop -in uvm_component::pre_reset_phase  -end   -once
+21:16:58    896 --> ...                                                                                      [tcl] synopsys::watch -raw
+21:16:58    897 --> ...                                                                                          [tcl] gui_postwatch -bpid 7  -in uvm_component::pre_reset_phase -allthreads -end -once
+21:16:58    898 --> ...                                                                                              [tcl] stop -in uvm_component::reset_phase  -end   -once
+21:16:58    899 --> ...                                                                                                  [tcl] synopsys::watch -raw
+21:16:58    900 --> ...  [tcl] gui_postwatch -bpid 8  -in uvm_component::reset_phase -allthreads -end -once
+21:16:58    901 --> ...      [tcl] stop -in uvm_component::post_reset_phase  -end   -once
+21:16:58    902 --> ...          [tcl] synopsys::watch -raw
+21:16:58    903 --> ...              [tcl] gui_postwatch -bpid 9  -in uvm_component::post_reset_phase -allthreads -end -once
+21:16:58    904 --> ...                  [tcl] stop -in uvm_component::pre_configure_phase  -end   -once
+21:16:58    905 --> ...                      [tcl] synopsys::watch -raw
+21:16:58    906 --> ...                          [tcl] gui_postwatch -bpid 10  -in uvm_component::pre_configure_phase -allthreads -end -once
+21:16:58    907 --> ...                              [tcl] stop -in uvm_component::configure_phase  -end   -once
+21:16:58    908 --> ...                                  [tcl] synopsys::watch -raw
+21:16:58    909 --> ...                                      [tcl] gui_postwatch -bpid 11  -in uvm_component::configure_phase -allthreads -end -once
+21:16:58    910 --> ...                                          [tcl] stop -in uvm_component::post_configure_phase  -end   -once
+21:16:58    911 --> ...                                              [tcl] synopsys::watch -raw
+21:16:58    912 --> ...                                                  [tcl] gui_postwatch -bpid 12  -in uvm_component::post_configure_phase -allthreads -end -once
+21:16:58    913 --> ...                                                      [tcl] stop -in uvm_component::pre_main_phase  -end   -once
+21:16:58    914 --> ...                                                          [tcl] synopsys::watch -raw
+21:16:58    915 --> ...                                                              [tcl] gui_postwatch -bpid 13  -in uvm_component::pre_main_phase -allthreads -end -once
+21:16:58    916 --> ...                                                                  [tcl] stop -in uvm_component::main_phase  -end   -once
+21:16:58    917 --> ...                                                                      [tcl] synopsys::watch -raw
+21:16:58    918 --> ...                                                                          [tcl] gui_postwatch -bpid 14  -in uvm_component::main_phase -allthreads -end -once
+21:16:58    919 --> ...                                                                              [tcl] stop -in uvm_component::post_main_phase  -end   -once
+21:16:58    920 --> ...                                                                                  [tcl] synopsys::watch -raw
+21:16:58    921 --> ...                                                                                      [tcl] gui_postwatch -bpid 15  -in uvm_component::post_main_phase -allthreads -end -once
+21:16:58    922 --> ...                                                                                          [tcl] stop -in uvm_component::pre_shutdown_phase  -end   -once
+21:16:58    923 --> ...                                                                                              [tcl] synopsys::watch -raw
+21:16:58    924 --> ...                                                                                                  [tcl] gui_postwatch -bpid 16  -in uvm_component::pre_shutdown_phase -allthreads -end -once
+21:16:58    925 --> ...  [tcl] stop -in uvm_component::shutdown_phase  -end   -once
+21:16:58    926 --> ...      [tcl] synopsys::watch -raw
+21:16:58    927 --> ...          [tcl] gui_postwatch -bpid 17  -in uvm_component::shutdown_phase -allthreads -end -once
+21:16:58    928 --> ...              [tcl] stop -in uvm_component::post_shutdown_phase  -end   -once
+21:16:58    929 --> ...                  [tcl] synopsys::watch -raw
+21:16:58    930 --> ...                      [tcl] gui_postwatch -bpid 18  -in uvm_component::post_shutdown_phase -allthreads -end -once
+21:16:58    931 --> ...                          [tcl] stop -in uvm_component::extract_phase  -end   -once
+21:16:58    932 --> ...                              [tcl] synopsys::watch -raw
+21:16:58    933 --> ...                                  [tcl] gui_postwatch -bpid 19  -in uvm_component::extract_phase -allthreads -end -once
+21:16:58    934 --> ...                                      [tcl] stop -in uvm_component::check_phase  -end   -once
+21:16:58    935 --> ...                                          [tcl] synopsys::watch -raw
+21:16:58    936 --> ...                                              [tcl] gui_postwatch -bpid 20  -in uvm_component::check_phase -allthreads -end -once
+21:16:58    937 --> ...                                                  [tcl] stop -in uvm_component::report_phase  -end   -once
+21:16:58    938 --> ...                                                      [tcl] synopsys::watch -raw
+21:16:58    939 --> ...                                                          [tcl] gui_postwatch -bpid 21  -in uvm_component::report_phase -allthreads -end -once
+21:16:58    940 --> ...                                                              [tcl] stop -in uvm_component::final_phase  -end   -once
+21:16:58    941 --> ...                                                                  [tcl] synopsys::watch -raw
+21:16:58    942 --> ...                                                                      [tcl] gui_postwatch -bpid 22  -in uvm_component::final_phase -allthreads -end -once
+21:16:58    943 --> ...                                                                          [tcl] # Global: Bus
+21:16:58    944 --> ...                                                                              [tcl] # Global: Expressions
+21:16:58    945 --> ...                                                                                  [tcl] # Global: Signal Time Shift
+21:16:58    946 --> ...                                                                                      [tcl] # Global: Signal Compare
+21:16:58    947 --> ...                                                                                          [tcl] # Global: Signal Groups
+21:16:58    948 --> ...                                                                                              [tcl] # Global: Highlighting
+21:16:58    949 --> ...                                                                                                  [tcl] # Global: Stack
+21:16:58    950 --> ...  [tcl] gui_change_stack_mode -mode list
+21:16:58    951 --> ...      [tcl] # Post database loading setting...
+21:16:58    952 --> ...          [tcl] # Save global setting...
+21:16:58    953 --> ...              [tcl] # Wave/List view global setting
+21:16:58    954 --> ...                  [tcl] gui_cov_show_value -switch false
+21:16:58    955 --> ...                      [tcl] # Close all empty TopLevel windows
+21:16:58    956 --> ...                          [tcl] foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+21:16:58    957 --> ...                              [tcl] gui_set_loading_session_type noSession
+21:16:58    958 --> ...                                  [tcl] # DVE View/pane content session:
+21:16:58    959 --> ...                                      [tcl] # Hier 'Hier.1'
+21:16:58    960 --> ...                                          [tcl] gui_show_window -window ${Hier.1}
+21:16:58    961 --> ...                                              [tcl] gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 0} {Process 1} {VirtPowSwitch 0} {UnnamedProcess 1} {UDP 0} {Function 1} {Block 1} {SrsnAndSpaCell 0} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {$unit 1} {NamedBlock 1} {Task 1} {VlgPackage 1} {ClassDef 1} {VirtIsoCell 0} }
+21:16:58    962 --> ...                                                  [tcl] gui_list_set_filter -id ${Hier.1} -text {*}
+21:16:58    963 --> ...                                                      [tcl] gui_change_design -id ${Hier.1} -design Sim
+21:16:58    964 --> ...                                                          [tcl] catch {gui_list_expand -id ${Hier.1} testcase}
+21:16:58    965 --> ...                                                              [tcl] catch {gui_list_select -id ${Hier.1} {testcase.hello_world}}
+21:16:58    966 --> ...                                                                  [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+21:16:58    967 --> ...                                                                      [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+21:16:58    968 --> ...                                                                          [tcl] # Class 'Class.1'
+21:16:58    969 --> ...                                                                              [tcl] gui_list_set_filter -id ${Class.1} -list { {OVM 1} {VMM 1} {All 1} {Object 1} {UVM 1} {RVM 1} }
+21:16:58    970 --> ...                                                                                  [tcl] gui_list_set_filter -id ${Class.1} -text {*}
+21:16:58    971 --> ...                                                                                      [tcl] gui_change_design -id ${Class.1} -design Sim
+21:16:58    972 --> ...                                                                                          [tcl] # Member 'Member.1'
+21:16:58    973 --> ...                                                                                              [tcl] gui_list_set_filter -id ${Member.1} -list { {InternalMember 0} {RandMember 1} {All 0} {BaseMember 0} {PrivateMember 1} {LibBaseMember 0} {AutomaticMember 1} {VirtualMember 1} {PublicMember 1} {ProtectedMember 1} {OverRiddenMember 0} {InterfaceClassMember 1} {StaticMember 1} }
+21:16:58    974 --> ...                                                                                                  [tcl] gui_list_set_filter -id ${Member.1} -text {*}
+21:16:58    975 --> ...  [tcl] # Data 'Data.1'
+21:16:58    976 --> ...      [tcl] gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+21:16:58    977 --> ...          [tcl] gui_list_set_filter -id ${Data.1} -text {*}
+21:16:58    978 --> ...              [tcl] gui_load_objects -child_scopes -scope Sim:testcase
+21:16:58    979 --> ...                  [tcl] gui_list_show_data -id ${Data.1} {testcase.hello_world}
+21:16:58    980 --> ...                      [tcl] gui_view_scroll -id ${Data.1} -vertical -set 0
+21:16:58    981 --> ...                          [tcl] gui_view_scroll -id ${Data.1} -horizontal -set 0
+21:16:58    982 --> ...                              [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+21:16:58    983 --> ...                                  [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+21:16:58    984 --> ...                                      [tcl] # Source 'Source.1'
+21:16:58    985 --> ...                                          [tcl] gui_src_value_annotate -id ${Source.1} -switch false
+21:16:58    986 --> ...                                              [tcl] gui_set_env TOGGLE::VALUEANNOTATE 0
+21:16:58    987 --> ...                                                  [tcl] gui_open_source -id ${Source.1}  -replace -active _vcs_unit__3143625952 /usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/uvm_pkg.sv
+21:16:58    988 --> ...                                                      [tcl] gui_view_scroll -id ${Source.1} -vertical -set 0
+21:16:58    989 --> ...                                                          [tcl] gui_src_set_reusable -id ${Source.1}
+21:16:58    990 --> ...                                                              [tcl] # Warning: Class view not found.
+21:16:58    991 --> ...                                                                  [tcl] # Restore toplevel window zorder
+21:16:58    992 --> ...                                                                      [tcl] # The toplevel window could be closed if it has no view/pane
+21:16:58    993 --> ...                                                                          [tcl] if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Source.1} 	gui_set_active_window -window ${DLPane.1} }
+21:16:58    994 --> ...                                                                              [tcl] #</Session>
+21:17:06    995 --> ...                                                                                  [tcl] synopsys::watch -file /usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/uvm_pkg.sv -line 14 -repeat
+21:17:12    996 --> ...                                                                                      [tcl] synopsys::watch -enable {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+21:17:12    997 --> ...                                                                                          [tcl] synopsys::watch -raw
+21:17:12    998 --> ...                                                                                              [tcl] gui_postwatch -bpid stop -enable {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+21:17:16    999 --> ...                                                                                                  [tcl] synopsys::watch -delete {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+21:17:16    1000 --> ...  [tcl] synopsys::watch -raw
+21:17:16    1001 --> ...      [tcl] gui_postwatch -bpid 1 -delete {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+21:17:21    1002 --> ...          [tcl] # Begin_DVE_Session_Save_Info
+21:17:21    1003 --> ...              [tcl] # DVE global only(Breakpoint ) session
+21:17:21    1004 --> ...                  [tcl] # Saved on Sun Jul 6 11:24:47 2014
+21:17:21    1005 --> ...                      [tcl] # Toplevel windows open: 1
+21:17:21    1006 --> ...                          [tcl] # 	TopLevel.1
+21:17:21    1007 --> ...                              [tcl] # End_DVE_Session_Save_Info
+21:17:21    1008 --> ...                                  [tcl] # DVE version: I-2014.03-3
+21:17:21    1009 --> ...                                      [tcl] # DVE build date: Jun 18 2014 01:58:38
+21:17:21    1010 --> ...                                          [tcl] #<Session mode="Global Only" path="/remote/us01home38/bting/SystemVerilog.VEST/dut_v1.4/testbench/lab0-HelloWorld/phase_all.tcl" type="Debug">
+21:17:21    1011 --> ...                                              [tcl] #<Database>
+21:17:21    1012 --> ...                                                  [tcl] gui_set_time_units 1s
+21:17:21    1013 --> ...                                                      [tcl] #</Database>
+21:17:21    1014 --> ...                                                          [tcl] # DVE Global setting session:
+21:17:21    1015 --> ...                                                              [tcl] # Global: Breakpoints
+21:17:21    1016 --> ...                                                                  [tcl] stop -in uvm_component::build_phase  -end   -once
+21:17:21    1017 --> ...                                                                      [tcl] synopsys::watch -raw
+21:17:21    1018 --> ...                                                                          [tcl] gui_postwatch -bpid 23  -in uvm_component::build_phase -allthreads -end -once
+21:17:21    1019 --> ...                                                                              [tcl] stop -in uvm_component::connect_phase  -end   -once
+21:17:21    1020 --> ...                                                                                  [tcl] synopsys::watch -raw
+21:17:21    1021 --> ...                                                                                      [tcl] gui_postwatch -bpid 24  -in uvm_component::connect_phase -allthreads -end -once
+21:17:21    1022 --> ...                                                                                          [tcl] stop -in uvm_component::end_of_elaboration_phase  -end   -once
+21:17:21    1023 --> ...                                                                                              [tcl] synopsys::watch -raw
+21:17:21    1024 --> ...                                                                                                  [tcl] gui_postwatch -bpid 25  -in uvm_component::end_of_elaboration_phase -allthreads -end -once
+21:17:21    1025 --> ...  [tcl] stop -in uvm_component::start_of_simulation_phase  -end   -once
+21:17:21    1026 --> ...      [tcl] synopsys::watch -raw
+21:17:21    1027 --> ...          [tcl] gui_postwatch -bpid 26  -in uvm_component::start_of_simulation_phase -allthreads -end -once
+21:17:21    1028 --> ...              [tcl] stop -in uvm_component::run_phase  -end   -once
+21:17:21    1029 --> ...                  [tcl] synopsys::watch -raw
+21:17:21    1030 --> ...                      [tcl] gui_postwatch -bpid 27  -in uvm_component::run_phase -allthreads -end -once
+21:17:21    1031 --> ...                          [tcl] stop -in uvm_component::pre_reset_phase  -end   -once
+21:17:21    1032 --> ...                              [tcl] synopsys::watch -raw
+21:17:21    1033 --> ...                                  [tcl] gui_postwatch -bpid 28  -in uvm_component::pre_reset_phase -allthreads -end -once
+21:17:21    1034 --> ...                                      [tcl] stop -in uvm_component::reset_phase  -end   -once
+21:17:21    1035 --> ...                                          [tcl] synopsys::watch -raw
+21:17:21    1036 --> ...                                              [tcl] gui_postwatch -bpid 29  -in uvm_component::reset_phase -allthreads -end -once
+21:17:21    1037 --> ...                                                  [tcl] stop -in uvm_component::post_reset_phase  -end   -once
+21:17:21    1038 --> ...                                                      [tcl] synopsys::watch -raw
+21:17:21    1039 --> ...                                                          [tcl] gui_postwatch -bpid 30  -in uvm_component::post_reset_phase -allthreads -end -once
+21:17:21    1040 --> ...                                                              [tcl] stop -in uvm_component::pre_configure_phase  -end   -once
+21:17:21    1041 --> ...                                                                  [tcl] synopsys::watch -raw
+21:17:21    1042 --> ...                                                                      [tcl] gui_postwatch -bpid 31  -in uvm_component::pre_configure_phase -allthreads -end -once
+21:17:21    1043 --> ...                                                                          [tcl] stop -in uvm_component::configure_phase  -end   -once
+21:17:21    1044 --> ...                                                                              [tcl] synopsys::watch -raw
+21:17:21    1045 --> ...                                                                                  [tcl] gui_postwatch -bpid 32  -in uvm_component::configure_phase -allthreads -end -once
+21:17:21    1046 --> ...                                                                                      [tcl] stop -in uvm_component::post_configure_phase  -end   -once
+21:17:21    1047 --> ...                                                                                          [tcl] synopsys::watch -raw
+21:17:21    1048 --> ...                                                                                              [tcl] gui_postwatch -bpid 33  -in uvm_component::post_configure_phase -allthreads -end -once
+21:17:22    1049 --> ...                                                                                                  [tcl] stop -in uvm_component::pre_main_phase  -end   -once
+21:17:22    1050 --> ...  [tcl] synopsys::watch -raw
+21:17:22    1051 --> ...      [tcl] gui_postwatch -bpid 34  -in uvm_component::pre_main_phase -allthreads -end -once
+21:17:22    1052 --> ...          [tcl] stop -in uvm_component::main_phase  -end   -once
+21:17:22    1053 --> ...              [tcl] synopsys::watch -raw
+21:17:22    1054 --> ...                  [tcl] gui_postwatch -bpid 35  -in uvm_component::main_phase -allthreads -end -once
+21:17:22    1055 --> ...                      [tcl] stop -in uvm_component::post_main_phase  -end   -once
+21:17:22    1056 --> ...                          [tcl] synopsys::watch -raw
+21:17:22    1057 --> ...                              [tcl] gui_postwatch -bpid 36  -in uvm_component::post_main_phase -allthreads -end -once
+21:17:22    1058 --> ...                                  [tcl] stop -in uvm_component::pre_shutdown_phase  -end   -once
+21:17:22    1059 --> ...                                      [tcl] synopsys::watch -raw
+21:17:22    1060 --> ...                                          [tcl] gui_postwatch -bpid 37  -in uvm_component::pre_shutdown_phase -allthreads -end -once
+21:17:22    1061 --> ...                                              [tcl] stop -in uvm_component::shutdown_phase  -end   -once
+21:17:22    1062 --> ...                                                  [tcl] synopsys::watch -raw
+21:17:22    1063 --> ...                                                      [tcl] gui_postwatch -bpid 38  -in uvm_component::shutdown_phase -allthreads -end -once
+21:17:22    1064 --> ...                                                          [tcl] stop -in uvm_component::post_shutdown_phase  -end   -once
+21:17:22    1065 --> ...                                                              [tcl] synopsys::watch -raw
+21:17:22    1066 --> ...                                                                  [tcl] gui_postwatch -bpid 39  -in uvm_component::post_shutdown_phase -allthreads -end -once
+21:17:22    1067 --> ...                                                                      [tcl] stop -in uvm_component::extract_phase  -end   -once
+21:17:22    1068 --> ...                                                                          [tcl] synopsys::watch -raw
+21:17:22    1069 --> ...                                                                              [tcl] gui_postwatch -bpid 40  -in uvm_component::extract_phase -allthreads -end -once
+21:17:22    1070 --> ...                                                                                  [tcl] stop -in uvm_component::check_phase  -end   -once
+21:17:22    1071 --> ...                                                                                      [tcl] synopsys::watch -raw
+21:17:22    1072 --> ...                                                                                          [tcl] gui_postwatch -bpid 41  -in uvm_component::check_phase -allthreads -end -once
+21:17:22    1073 --> ...                                                                                              [tcl] stop -in uvm_component::report_phase  -end   -once
+21:17:22    1074 --> ...                                                                                                  [tcl] synopsys::watch -raw
+21:17:22    1075 --> ...  [tcl] gui_postwatch -bpid 42  -in uvm_component::report_phase -allthreads -end -once
+21:17:22    1076 --> ...      [tcl] stop -in uvm_component::final_phase  -end   -once
+21:17:22    1077 --> ...          [tcl] synopsys::watch -raw
+21:17:22    1078 --> ...              [tcl] gui_postwatch -bpid 43  -in uvm_component::final_phase -allthreads -end -once
+21:17:22    1079 --> ...                  [tcl] #</Session>
+21:17:30    1080 --> ...                      [tcl] synopsys::watch -in uvm_component::final_phase -once -end -dupok 43
+21:17:30    1081 --> ...                          [tcl] synopsys::watch -raw
+21:17:30    1082 --> ...                              [tcl] gui_postwatch -bpid 44  -in uvm_component::final_phase -allthreads -end -once
+21:17:30    1083 --> ...                                  [tcl] synopsys::watch -delete 43
+21:17:30    1084 --> ...                                      [tcl] synopsys::watch -raw
+21:17:30    1085 --> ...                                          [tcl] gui_postwatch -bpid 43 -delete 43
+21:17:51    1086 --> ...                                              [tcl] dveMisc::vbusExpand {testcase.\hello_world::end_of_elaboration_phase }
+21:19:39    1087 --> ...                                                  [tcl] ucliCore::getToolPID
+21:19:53    1088 --> ...                                                      [tcl] ucliCore::getToolPID
+21:24:52    1089 --> ...                                                          [tcl] ucliCore::getToolPID
+21:24:52    1090 --> ...                                                              [tcl] ucliCore::_closeTool

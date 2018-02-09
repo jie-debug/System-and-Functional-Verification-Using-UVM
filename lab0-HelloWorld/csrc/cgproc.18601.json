@@ -1,0 +1,91 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "testcase": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        }
+    },
+    "reusePaths": {},
+    "CompUnits": {
+        "PATxq_d": {
+            "mod": "testcase",
+            "bytes": 78465,
+            "out": "PATxq_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.2/_18601_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "bytes": 33214,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.2/_18601_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 7859,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "bytes": 3306418,
+            "out": "hEeZs_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.2/_18601_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "bytes": 3213056,
+            "out": "zr7M1_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.2/_18601_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    3306418
+                ],
+                [
+                    "reYIK_d.o",
+                    33214
+                ],
+                [
+                    "zr7M1_d.o",
+                    3213056
+                ],
+                [
+                    "PATxq_d.o",
+                    78465
+                ],
+                [
+                    "amcQwB.o",
+                    285940
+                ]
+            ],
+            "archive": "archive.2/_18601_archive_1.a",
+            "size": 6917093
+        }
+    ]
+}

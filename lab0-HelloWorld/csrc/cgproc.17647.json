@@ -1,0 +1,139 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_msglog": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__3143625952": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_custom_install_recording": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "testcase": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "reYIK_d": {
+            "mod": "std",
+            "bytes": 42556,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 8530,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "PATxq_d": {
+            "mod": "testcase",
+            "bytes": 185001,
+            "out": "PATxq_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "bytes": 5423894,
+            "out": "hEeZs_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "zQBzV_d": {
+            "mod": "_vcs_msglog",
+            "bytes": 10221,
+            "out": "zQBzV_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "ehYMb_d": {
+            "mod": "_vcs_unit__3143625952",
+            "bytes": 189157,
+            "out": "ehYMb_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "bytes": 5955547,
+            "out": "zr7M1_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        },
+        "nhiwz_d": {
+            "mod": "uvm_custom_install_recording",
+            "bytes": 26064,
+            "out": "nhiwz_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_17647_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_17647_archive_1.a",
+            "size": 12182655,
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    5423894
+                ],
+                [
+                    "ehYMb_d.o",
+                    189157
+                ],
+                [
+                    "reYIK_d.o",
+                    42556
+                ],
+                [
+                    "zr7M1_d.o",
+                    5955547
+                ],
+                [
+                    "zQBzV_d.o",
+                    10221
+                ],
+                [
+                    "nhiwz_d.o",
+                    26064
+                ],
+                [
+                    "PATxq_d.o",
+                    185001
+                ],
+                [
+                    "amcQwB.o",
+                    350215
+                ]
+            ]
+        }
+    ]
+}

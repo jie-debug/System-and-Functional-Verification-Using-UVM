@@ -1,0 +1,201 @@
+ucliGUI::start /home/sf10021/Labs/lab0-HelloWorld/simv -ucligui +UVM_TESTNAME=test_base
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synopsys::xml set_array_limit <data limit="50" />
+synopsys::xml set_depth_limit <data limit="100" />
+synopsys::xml set_string_limit <data limit="1000" />
+synopsys::xml set_only_active_frame <data value="1" />
+synopsys::xml set_variable_frame_id <data value="1" />
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/sf10021/Labs/lab0-HelloWorld/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD4
+set ::dve_fid VPD4
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpVa7UMF
+synUtils::sendTool -active {_icl_start_rpc -version "L-2016.06-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.sf10026.25270}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.sf10026.25270}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+# Begin_DVE_Session_Save_Info
+# DVE restart session
+# Saved on Tue Feb 6 21:16:56 2018
+# Designs open: 1
+#   Sim: /home/sf10021/Labs/lab0-HelloWorld/simv
+# Toplevel windows open: 1
+# 	TopLevel.1
+#   Source.1: _vcs_unit__3143625952
+#   Group count = 0
+# End_DVE_Session_Save_Info
+# DVE version: L-2016.06-SP1_Full64
+# DVE build date: Aug 25 2016 21:34:05
+#<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+# Application preferences
+#<WindowLayout>
+# DVE top-level session
+# Create and position top-level window: TopLevel.1
+set TopLevel.1 TopLevel.1
+# Docked window settings
+set HSPane.1 HSPane.1
+set Hier.1 Hier.1
+set Stack.1 Stack.1
+set Class.1 Class.1
+set Object.1 Object.1
+set DLPane.1 DLPane.1
+set Data.1 Data.1
+set Local.1 Local.1
+set Member.1 Member.1
+set Console.1 Console.1
+# MDI window settings
+set Source.1 Source.1
+# End MDI window settings
+#</WindowLayout>
+#<Database>
+#</Database>
+# DVE Global setting session:
+# Global: Breakpoints
+stop -in uvm_component::pre_main_phase
+synopsys::watch -raw
+stop -in uvm_component::build_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::connect_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::end_of_elaboration_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::start_of_simulation_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::run_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::extract_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::check_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::report_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::final_phase  -end   -once
+synopsys::watch -raw
+# Global: Bus
+# Global: Expressions
+# Global: Signal Time Shift
+# Global: Signal Compare
+# Global: Signal Groups
+# Global: Highlighting
+# Global: Stack
+# Post database loading setting...
+# Save global setting...
+# Wave/List view global setting
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+# DVE View/pane content session:
+# Hier 'Hier.1'
+catch {gui_list_expand -id ${Hier.1} testcase}
+catch {gui_list_select -id ${Hier.1} {testcase.hello_world}}
+# Class 'Class.1'
+# Member 'Member.1'
+# Data 'Data.1'
+# Source 'Source.1'
+# Warning: Class view not found.
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Source.1} 	gui_set_active_window -window ${DLPane.1} }
+#</Session>
+synopsys::watch -file /usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/uvm_pkg.sv -line 14 -repeat
+synopsys::watch -enable {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+synopsys::watch -raw
+synopsys::watch -delete {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+synopsys::watch -raw
+# Begin_DVE_Session_Save_Info
+# DVE global only(Breakpoint ) session
+# Saved on Sun Jul 6 11:24:47 2014
+# Toplevel windows open: 1
+# 	TopLevel.1
+# End_DVE_Session_Save_Info
+# DVE version: I-2014.03-3
+# DVE build date: Jun 18 2014 01:58:38
+#<Session mode="Global Only" path="/remote/us01home38/bting/SystemVerilog.VEST/dut_v1.4/testbench/lab0-HelloWorld/phase_all.tcl" type="Debug">
+#<Database>
+#</Database>
+# DVE Global setting session:
+# Global: Breakpoints
+stop -in uvm_component::build_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::connect_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::end_of_elaboration_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::start_of_simulation_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::run_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_reset_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_configure_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_main_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::pre_shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::post_shutdown_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::extract_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::check_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::report_phase  -end   -once
+synopsys::watch -raw
+stop -in uvm_component::final_phase  -end   -once
+synopsys::watch -raw
+#</Session>
+synopsys::watch -in uvm_component::final_phase -once -end -dupok 43
+synopsys::watch -raw
+synopsys::watch -delete 43
+synopsys::watch -raw
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::_closeTool

@@ -1,0 +1,79 @@
+{
+    "CompUnits": {
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "bytes": 3305420,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.8/_27382_archive_1.a"
+        },
+        "PATxq_d": {
+            "mod": "testcase",
+            "out": "PATxq_d.o",
+            "bytes": 74861,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.8/_27382_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "out": "zr7M1_d.o",
+            "bytes": 3179926,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.8/_27382_archive_1.a"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 9
+        },
+        "testcase": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.8/_27382_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    3305420
+                ],
+                [
+                    "zr7M1_d.o",
+                    3179926
+                ],
+                [
+                    "PATxq_d.o",
+                    74861
+                ],
+                [
+                    "amcQwB.o",
+                    282918
+                ]
+            ],
+            "size": 6843125
+        }
+    ],
+    "reusePaths": {
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    }
+}

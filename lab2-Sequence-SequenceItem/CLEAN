@@ -1,0 +1,1 @@
+\rm -rf csrc simv simv.* ucli.* vc_hdrs.h *.log

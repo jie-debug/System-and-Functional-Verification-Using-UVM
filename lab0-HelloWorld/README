@@ -1,0 +1,21 @@
+This is the homework assignment for UVM, lab0
+
+If you don't yet have the UVM Workbook, here are some instructions 
+on what you need to do in this homework
+
+1) Examine the source code, testcase.sv and testclass.sv
+   Add a run_phase() task in testclass.sv
+   Use $display to print a simple message, "Hello World"
+2) Execute the runsim script and note the output
+3) Use `uvm_info() to print the same message. Note the output
+   `uvm_info("TEST", "HELLOW WORL", UVM_MEDIUM);
+
+   Examine the runsim script. Pay attention to how the testname is specified.
+
+4) Add an end_of_elaboration_phase() function in testcase.sv, then 
+   call uvm_top.print_topology() inside the function.
+5) Execute the runsim script. Note the output
+
+6) Add a start_of_simulation_phase() function inside testclass.sv, the
+   call factory.print() inside the function
+7) Execute the runsim script. Note the output

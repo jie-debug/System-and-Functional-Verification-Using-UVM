@@ -1,0 +1,161 @@
+{
+    "MlibObjs": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "std",
+        "uvm_pkg",
+        "testcase",
+        "testcase"
+    ],
+    "CompileStrategy": "fullobj",
+    "PrevCompiledModules": {
+        "uvm_pkg": {
+            "zr7M1_d": {
+                "bytes": 3213048,
+                "out": "zr7M1_d.o",
+                "mod": "uvm_pkg",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "testcase": {
+            "PATxq_d": {
+                "bytes": 77137,
+                "out": "PATxq_d.o",
+                "mod": "testcase",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_28479_archive_1.a"
+            }
+        },
+        "vcs_paramclassrepository": {
+            "hEeZs_d": {
+                "bytes": 3306410,
+                "out": "hEeZs_d.o",
+                "mod": "vcs_paramclassrepository",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 33206,
+                "out": "reYIK_d.o",
+                "mod": "std",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7851,
+                "out": "objs/amcQw_d.o",
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0
+            }
+        }
+    },
+    "NameTable": {
+        "testcase": [
+            "testcase",
+            "PATxq",
+            "module"
+        ],
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "uvm_pkg": [
+            "uvm_pkg",
+            "zr7M1",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_nivcsw": 3,
+            "ru_utime_sec": 3.8394159999999999,
+            "ru_stime_sec": 0.059990000000000002,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 27795,
+            "ru_nvcsw": 327,
+            "ru_majflt": 0
+        },
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0
+        },
+        "Frontend(%)": 88.053194053578878,
+        "mop/quad": 2.8337282482379753,
+        "nMops": 187760,
+        "nQuads": 66259,
+        "totalObjSize": 325956,
+        "ru_self_end": {
+            "ru_nivcsw": 3,
+            "ru_utime_sec": 4.3603370000000004,
+            "ru_stime_sec": 0.076988000000000001,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 38332,
+            "ru_nvcsw": 328,
+            "ru_majflt": 0
+        },
+        "mopSpeed": 360438.53098646406,
+        "ru_childs_end": {
+            "ru_nivcsw": 2,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0029989999999999999,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 456,
+            "ru_nvcsw": 1,
+            "ru_majflt": 0
+        },
+        "outputSizePerQuad": 4.0,
+        "quadSpeed": 127195.87039109567,
+        "CodeGen(%)": 11.946805946421122,
+        "peak_mem_kb": 254432
+    },
+    "CompileProcesses": [
+        "cgproc.28479.json"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 247499,
+        "archive": "archive.1/_28479_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/sf10011/Labs/lab0-HelloWorld",
+        "daidir": "simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/sf10011/Labs/lab0-HelloWorld/csrc",
+        "daidir_abs": "/home/sf10011/Labs/lab0-HelloWorld/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.1"
+    }
+}

@@ -1,0 +1,1 @@
+vcs -full64 -R -sverilog -ntb_opts uvm-1.1 testcase.sv -l vcs.log +UVM_TESTNAME=hello_world

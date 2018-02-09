@@ -1,0 +1,68 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_set_pref_value -category {Globals} -key {smart_resize} -value {false}
+gui_set_pref_value -category {Globals} -key {smart_resize} -value {true}
+gui_sim_run Ucli -exe simv -args {-ucligui  +UVM_TESTNAME=test_base} -dir .
+gui_list_expand -id  Hier.1   _vcs_unit__3143625952
+gui_list_collapse -id  Hier.1   _vcs_unit__3143625952
+gui_list_expand -id  Hier.1   testcase
+gui_list_expand -id  Hier.1   testcase.hello_world
+gui_list_select -id Hier.1 -current_item_name testcase.hello_world -current_item_type Scope  -selected  { testcase.hello_world   }
+gui_list_action -id  Hier.1 testcase.hello_world
+gui_src_expand -id { Source.1 } -fid  0  -line 2
+gui_src_collapse -id { Source.1 } -fid  0  -line 2
+gui_src_expand -id { Source.1 } -fid  0  -line 11
+synopsys::watch -in uvm_component::pre_main_phase -repeat
+gui_load_session -ignore_errors -file  /home/sf10026/Labs/lab1-Testclass-Stimulus/phase_all.tcl
+synopsys::watch -in uvm_component::final_phase -once -end -dupok 22
+synopsys::watch -delete 22
+gui_sim_continue  
+gui_sim_restart
+gui_sim_continue  
+gui_sim_restart
+gui_sim_continue  
+gui_sim_restart
+gui_sim_continue  
+gui_sim_restart
+synopsys::watch -file /usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/uvm_pkg.sv -line 14 -repeat
+synopsys::watch -enable {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+synopsys::watch -delete {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22}
+gui_load_session -ignore_errors -file  /home/sf10026/Labs/lab1-Testclass-Stimulus/phase_all.tcl
+synopsys::watch -in uvm_component::final_phase -once -end -dupok 43
+synopsys::watch -delete 43
+gui_show_window -window  Class.1
+gui_show_window -window  Member.1
+gui_show_window -window  Stack.1
+gui_show_window -window  Local.1
+gui_show_window -window  Hier.1
+gui_show_window -window  Data.1
+gui_show_window -window  Class.1
+gui_show_window -window  Member.1
+gui_show_window -window  Hier.1
+gui_show_window -window  Data.1
+gui_list_expand -id  Hier.1   testcase.hello_world
+gui_list_select -id Hier.1 -current_item_name {testcase.\hello_world::end_of_elaboration_phase } -current_item_type Scope  -selected  { {testcase.\hello_world::end_of_elaboration_phase }   }
+gui_show_window -window  Local.1
+gui_show_window -window  Stack.1
+gui_show_window -window  Member.1
+gui_show_window -window  Class.1
+gui_show_window -window  Object.1
+gui_list_select -id Object.1 -selected  { uvm_pkg   }
+gui_list_expand -id  Object.1   uvm_pkg
+gui_show_window -window  Data.1
+gui_show_window -window  Hier.1
+#Dve crash log 
+#Encountered Illegal Interrupt SIGXFSZ on Tue Feb 6 21:24:52 2018
+#Version: L-2016.06-SP1_Full64
+#Platform: Linux RH 4.0
+#Data of Built: Aug 25 2016 21:31:05

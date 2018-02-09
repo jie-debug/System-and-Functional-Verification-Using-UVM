@@ -1,0 +1,91 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "testcase": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 33222,
+            "mode": 4,
+            "archive": "archive.0/_8305_archive_1.a",
+            "checksum": 0
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7867,
+            "mode": 4,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "bytes": 3304416,
+            "mode": 4,
+            "archive": "archive.0/_8305_archive_1.a",
+            "checksum": 0
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "out": "zr7M1_d.o",
+            "bytes": 3179074,
+            "mode": 4,
+            "archive": "archive.0/_8305_archive_1.a",
+            "checksum": 0
+        },
+        "PATxq_d": {
+            "mod": "testcase",
+            "out": "PATxq_d.o",
+            "bytes": 72373,
+            "mode": 4,
+            "archive": "archive.0/_8305_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 6872580,
+            "archive": "archive.0/_8305_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    3304416
+                ],
+                [
+                    "reYIK_d.o",
+                    33222
+                ],
+                [
+                    "zr7M1_d.o",
+                    3179074
+                ],
+                [
+                    "PATxq_d.o",
+                    72373
+                ],
+                [
+                    "amcQwB.o",
+                    283495
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {}
+}

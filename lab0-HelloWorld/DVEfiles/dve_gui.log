@@ -1,0 +1,205 @@
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1_Full64; Runtime version L-2016.06-SP1_Full64;  Feb  6 21:10 2018
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06-SP1_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/home/sf10021/Labs/lab0-HelloWorld/inter.vpd' was opened successfully.
+UVM_WARNING @ 0: reporter [BDTYP] Cannot create a component of type 'test_base' because it is not registered with the factory.
+UVM_FATAL @ 0: reporter [INVTST] Requested test from command line +UVM_TESTNAME=test_base not found.
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    0
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[BDTYP]     1
+[INVTST]     1
+$finish called from file "/usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/base/uvm_report_object.svh", line 292.
+$finish at simulation time                    0
+Simulation complete, time is 0.
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1_Full64; Runtime version L-2016.06-SP1_Full64;  Feb  6 21:14 2018
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06-SP1_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/sf10021/Labs/lab0-HelloWorld/inter.vpd' was opened successfully.
+UVM_WARNING @ 0: reporter [BDTYP] Cannot create a component of type 'test_base' because it is not registered with the factory.
+UVM_FATAL @ 0: reporter [INVTST] Requested test from command line +UVM_TESTNAME=test_base not found.
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    0
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[BDTYP]     1
+[INVTST]     1
+$finish called from file "/usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/base/uvm_report_object.svh", line 292.
+$finish at simulation time                    0
+Simulation complete, time is 0.
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1_Full64; Runtime version L-2016.06-SP1_Full64;  Feb  6 21:16 2018
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06-SP1_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/sf10021/Labs/lab0-HelloWorld/inter.vpd' was opened successfully.
+UVM_WARNING @ 0: reporter [BDTYP] Cannot create a component of type 'test_base' because it is not registered with the factory.
+UVM_FATAL @ 0: reporter [INVTST] Requested test from command line +UVM_TESTNAME=test_base not found.
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    0
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[BDTYP]     1
+[INVTST]     1
+$finish called from file "/usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/base/uvm_report_object.svh", line 292.
+$finish at simulation time                    0
+Simulation complete, time is 0.
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1_Full64; Runtime version L-2016.06-SP1_Full64;  Feb  6 21:16 2018
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06-SP1_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/sf10021/Labs/lab0-HelloWorld/inter.vpd' was opened successfully.
+UVM_WARNING @ 0: reporter [BDTYP] Cannot create a component of type 'test_base' because it is not registered with the factory.
+UVM_FATAL @ 0: reporter [INVTST] Requested test from command line +UVM_TESTNAME=test_base not found.
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    0
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[BDTYP]     1
+[INVTST]     1
+$finish called from file "/usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/base/uvm_report_object.svh", line 292.
+$finish at simulation time                    0
+Simulation complete, time is 0.
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP1_Full64; Runtime version L-2016.06-SP1_Full64;  Feb  6 21:16 2018
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06-SP1_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/sf10021/Labs/lab0-HelloWorld/inter.vpd' was opened successfully.
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /usr/synopsys/vcs-mx_L-2016.06-SP1//etc/uvm-1.1/uvm_pkg.sv line 14 due to 
+  'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  Also verify that the statement on which the BP is being added is in
+  a module compiled with line debug capability.  Please recompile using the 
+  '-debug_access<+options>' switch and incremental options as required.  
+  Recommended options are '-debug_access' for post-process debug, 
+  '-debug_access+classdbg' for testbench debug, and '-debug_access+all' for 
+  all debug capabilities.  Refer the VCS user guide for more granular options 
+  for debug control under the switch '-debug_access' and refer to 
+  '-debug_region' for region control.

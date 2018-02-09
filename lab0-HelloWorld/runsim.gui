@@ -1,0 +1,2 @@
+vcs -full64 -sverilog -l vcs.log -ntb_opts uvm-1.1 testcase.sv +UVM_TESTNAME=test_base -debug_access+all -lca
+simv +UVM_TESTNAME=test_base -gui
