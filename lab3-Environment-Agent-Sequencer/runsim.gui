@@ -1,0 +1,2 @@
+vcs -full64 -sverilog -l vcs.log -ntb_opts uvm-1.1 testcase.sv +UVM_TESTNAME=test_base +UVM_VERBOSITY=HIGH -debug_all
+simv +UVM_TESTNAME=test_base +UVM_VERBOSITY=HIGH +ntb_random_seed -gui
