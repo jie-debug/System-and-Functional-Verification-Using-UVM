@@ -1,0 +1,7 @@
+vcs -full64 -R -sverilog -l vcs.log -ntb_opts uvm-1.1 		\
+ +UVM_TESTNAME=test_base +UVM_VERBOSITY=HIGH 		\
+./switch.v 				\
+-debug_pp						\
+testcase.sv						\
+router_test_top.sv					\
+router_interface.sv

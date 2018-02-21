@@ -1,0 +1,3 @@
+interface switch_interface(input clk);
+   //Add your code here...
+endinterface
