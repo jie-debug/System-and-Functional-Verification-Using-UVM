@@ -1,0 +1,91 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "generic_fifo_ctrl_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "meta_sync_single_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "out": "objs/amcQw_d.o",
+            "mod": "...MASTER...",
+            "bytes": 7387,
+            "checksum": 0,
+            "mode": 4
+        },
+        "reYIK_d": {
+            "out": "reYIK_d.o",
+            "mod": "std",
+            "bytes": 32494,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4348_archive_1.a"
+        },
+        "g7hgQ_d": {
+            "out": "g7hgQ_d.o",
+            "mod": "tb",
+            "bytes": 196511,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4348_archive_1.a"
+        },
+        "NY7Gb_d": {
+            "out": "NY7Gb_d.o",
+            "mod": "generic_fifo_ctrl_0000",
+            "bytes": 17388,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4348_archive_1.a"
+        },
+        "Z0GYV_d": {
+            "out": "Z0GYV_d.o",
+            "mod": "meta_sync_single_0000",
+            "bytes": 8155,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4348_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    32494
+                ],
+                [
+                    "NY7Gb_d.o",
+                    17388
+                ],
+                [
+                    "Z0GYV_d.o",
+                    8155
+                ],
+                [
+                    "g7hgQ_d.o",
+                    196511
+                ],
+                [
+                    "amcQwB.o",
+                    62745
+                ]
+            ],
+            "archive": "archive.0/_4348_archive_1.a",
+            "size": 317293
+        }
+    ]
+}

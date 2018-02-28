@@ -1,0 +1,115 @@
+{
+    "LVLData": [
+        "SIM"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "tb": [
+            "tb",
+            "g7hgQ",
+            "module"
+        ],
+        "generic_fifo_ctrl_0000": [
+            "generic_fifo_ctrl_0000",
+            "NY7Gb",
+            "module"
+        ],
+        "meta_sync_single_0000": [
+            "meta_sync_single_0000",
+            "Z0GYV",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "generic_fifo_ctrl_0000",
+        "generic_fifo_ctrl_0000",
+        "meta_sync_single_0000",
+        "meta_sync_single_0000",
+        "tb",
+        "tb"
+    ],
+    "MlibObjs": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 62745,
+        "archive": "archive.0/_4348_archive_1.a"
+    },
+    "PrevCompiledModules": {},
+    "CompileProcesses": [
+        "cgproc.4348.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.34994599999999998,
+            "ru_stime_sec": 0.020996000000000001,
+            "ru_nivcsw": 2,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 16099,
+            "ru_majflt": 0,
+            "ru_nvcsw": 321
+        },
+        "mop/quad": 3.511390887290168,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.50192300000000001,
+            "ru_stime_sec": 0.025995999999999998,
+            "ru_nivcsw": 2,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 19001,
+            "ru_majflt": 0,
+            "ru_nvcsw": 321
+        },
+        "nMops": 29285,
+        "CodeGen(%)": 30.278947169187312,
+        "mopSpeed": 192693.63127315315,
+        "nQuads": 8340,
+        "totalObjSize": 324680,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0
+        },
+        "quadSpeed": 54876.724767563501,
+        "outputSizePerQuad": 38.0,
+        "Frontend(%)": 69.721052830812695,
+        "peak_mem_kb": 219812
+    },
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/sf10011/Labs/lab-project-10gEthernetMAC/sim/verilog",
+        "daidir_abs": "/home/sf10011/Labs/lab-project-10gEthernetMAC/sim/verilog/simv.daidir",
+        "csrc_abs": "/home/sf10011/Labs/lab-project-10gEthernetMAC/sim/verilog/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.0",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}
